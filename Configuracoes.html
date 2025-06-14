@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <div class="d-flex">
+        <nav id="sidebar" class="bg-info">
+            <div class="p-4">
+                <h2 class="text-white">Bem vindo</h2>
+                <ul class="list-unstyled components mb-5">
+                    <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="#"><i class="fas fa-th-large"></i> Categorias</a></li>
+                    <li><a href="servicos.html"><i class="fas fa-briefcase"></i> Serviços contratados</a></li>
+                    <li><a href="#"><i class="fas fa-cogs"></i> Configurações</a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i> Lembretes</a></li>
+                    <li><a href="Perfil.html"><i class="fas fa-user"></i> Perfil</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="content" class="p-4 p-md-5">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Usar tema claro
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Usar tema escuro
+                </label>
+              </div>
+              <button class="btn btn-secondary mt-3" onclick="window.history.back()"><i class="bi bi-arrow-left"></i> Voltar</button>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
